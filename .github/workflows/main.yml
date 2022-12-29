@@ -7,4 +7,4 @@ jobs:
       - name: Compile LaTeX document
         uses: matsavage/dnd-latex-action@v0.3.0
         with:
-          root_file: main.tex
+          working_directory: characters
